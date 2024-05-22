@@ -10,6 +10,7 @@ The shell script in the workflow will run whenever a new pull request is opened.
 
 ### :keyboard: Activity: Trigger the workflow
 
+1. Click the **Settings** tab for your repository. In the left panel, click **Actions** then **General**. Under "Workflow permissions," make sure that **Read and write permissions** is selected. This allows your workflows to write to this repository.
 1. Make a new branch named `test-workflow`.
 1. Make a change, such as adding an emoji to your README.md file, and commit the change directly to your new branch.
 1. In the **Pull requests** tab, create a pull request that will merge `test-workflow` into `main`.
